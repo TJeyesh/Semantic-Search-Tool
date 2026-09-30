@@ -1,0 +1,8 @@
+sentence-transformers
+Pillow
+torch
+fastapi
+uvicorn
+jinja2
+python-multipart
+transformers

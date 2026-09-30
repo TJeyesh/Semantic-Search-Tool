@@ -1,0 +1,1342 @@
+{
+  "test_data/cat.png": {
+    "type": "image",
+    "caption": "a cat laying on a rug next to a plant",
+    "keywords": [
+      "a",
+      "cat",
+      "laying",
+      "on",
+      "a",
+      "rug",
+      "next",
+      "to",
+      "a",
+      "plant"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "test_data/hello.txt": {
+    "type": "text",
+    "keywords": [
+      "this",
+      "file",
+      "containing",
+      "hello",
+      "world",
+      "text"
+    ],
+    "snippet": "This is a file containing hello world text.\n",
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/Annual/CMS/L6.png": {
+    "type": "image",
+    "caption": "a cartoon character is playing with a child",
+    "keywords": [
+      "a",
+      "cartoon",
+      "character",
+      "is",
+      "playing",
+      "with",
+      "a",
+      "child"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/Annual/CMS/L4.png": {
+    "type": "image",
+    "caption": "cricket world tour",
+    "keywords": [
+      "cricket",
+      "world",
+      "tour"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/Annual/CMS/L5.png": {
+    "type": "image",
+    "caption": "cricket stadium with ball and bat - vector gr",
+    "keywords": [
+      "cricket",
+      "stadium",
+      "with",
+      "ball",
+      "and",
+      "bat",
+      "",
+      "vector",
+      "gr"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/Annual/CMS/login.png": {
+    "type": "image",
+    "caption": "cricket stadium background vector illustration",
+    "keywords": [
+      "cricket",
+      "stadium",
+      "background",
+      "vector",
+      "illustration"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/Annual/CMS/L1.png": {
+    "type": "image",
+    "caption": "cricket player 3d model - cricket player by 3d _ model",
+    "keywords": [
+      "cricket",
+      "player",
+      "3d",
+      "model",
+      "",
+      "cricket",
+      "player",
+      "by",
+      "3d",
+      "",
+      "model"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/Annual/CMS/requirements.txt": {
+    "type": "text",
+    "keywords": [
+      "customtkinter==5.2.1",
+      "darkdetect==0.8.0",
+      "matplotlib==3.8.1",
+      "messagebox==0.1.0",
+      "mysql-connector-python==8.2.0",
+      "pillow==10.1.0"
+    ],
+    "snippet": "customtkinter==5.2.1\ndarkdetect==0.8.0\nmatplotlib==3.8.1\nmessagebox==0.1.0\nmysql-connector-python==8.2.0\nPillow==10.1.0\n",
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/Annual/CMS/L2.png": {
+    "type": "image",
+    "caption": "the cricket team",
+    "keywords": [
+      "the",
+      "cricket",
+      "team"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/Annual/CMS/L3.png": {
+    "type": "image",
+    "caption": "the indian cricket team",
+    "keywords": [
+      "the",
+      "indian",
+      "cricket",
+      "team"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/Annual/CMS/R2.png": {
+    "type": "image",
+    "caption": "a red button on a keyboard that says update",
+    "keywords": [
+      "a",
+      "red",
+      "button",
+      "on",
+      "a",
+      "keyboard",
+      "that",
+      "says",
+      "update"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/Annual/CMS/cricket.png": {
+    "type": "image",
+    "caption": "cricket player with ball and bat",
+    "keywords": [
+      "cricket",
+      "player",
+      "with",
+      "ball",
+      "and",
+      "bat"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/Annual/CMS/R3.png": {
+    "type": "image",
+    "caption": "the logo for the new dele",
+    "keywords": [
+      "the",
+      "logo",
+      "for",
+      "the",
+      "new",
+      "dele"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/Annual/CMS/R1.png": {
+    "type": "image",
+    "caption": "the logo of the company logout",
+    "keywords": [
+      "the",
+      "logo",
+      "of",
+      "the",
+      "company",
+      "logout"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/Annual/CMS/otp.py": {
+    "type": "text",
+    "keywords": [
+      "import",
+      "account",
+      "password",
+      "management",
+      "random",
+      "smtplib",
+      "smtp_port=587",
+      "smtp_server=\"smtp.gmail.com",
+      "passwd=\"thhi",
+      "cwbg",
+      "vjrh",
+      "dlav",
+      "app's",
+      "email_from=\"cricketmanagementsystem@gmail.com",
+      "otp=random.randint(100000,999999",
+      "message=f\"cricket",
+      "system",
+      "welcomes",
+      "user_name}\\n\\nyour",
+      "simple_email_context=ssl.create_default_context",
+      "server=smtplib.smtp(smtp_server,smtp_port",
+      "server.starttls(context=simple_email_context",
+      "server.login(email_from,passwd",
+      "server.sendmail(email_from,email_to,message",
+      "server.quit",
+      "except",
+      "exception",
+      "print(e",
+      "otp='invalid",
+      "email",
+      "return",
+      "otp_login(email_to,user_name",
+      "email_to=\"tjeyeshbspsss10@outlook.com",
+      "email_to='tjeyesh@bspsss10.edu.in",
+      "login",
+      "your",
+      "cricket",
+      "system(cms",
+      "otp_reset(email_to,user_name",
+      "reset"
+    ],
+    "snippet": "def otp_login(email_to,user_name):\n    import random\n    import smtplib\n    import ssl\n    smtp_port=587\n    smtp_server=\"smtp.gmail.com\"\n    passwd=\"thhi cwbg vjrh dlav\" # app's account password\n    ",
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/Annual/CMS/ctk_graph.py": {
+    "type": "text",
+    "keywords": [
+      "graph",
+      "height",
+      "0.05",
+      "0.95",
+      "width",
+      "import",
+      "title",
+      "data",
+      "data_len",
+      "datetime",
+      "list",
+      "axis",
+      "responsible",
+      "polygon",
+      "data_values",
+      "self.date",
+      "self.main_canvas",
+      "none",
+      "self.title",
+      "self.main_canvas.create_line(width",
+      "fill=self.graph_axis_color",
+      "width=self.graph_axis_width",
+      "arrow=self.graph_axis_arrow",
+      "max_value",
+      "coordinates.append((width",
+      "customtkinter",
+      "from",
+      "tkinter",
+      "class",
+      "ctkgraph(ctk.ctkframe",
+      "widget",
+      "display",
+      "integers",
+      "customize",
+      "almost",
+      "everything",
+      "except",
+      "corner",
+      "radius",
+      "canvas",
+      "that",
+      "draws",
+      "also",
+      "custom",
+      "don't",
+      "labeled",
+      "won't",
+      "rendered",
+      "vars",
+      "arrows"
+    ],
+    "snippet": "import customtkinter as ctk\nfrom datetime import datetime\nimport tkinter as tk\n\nclass CTkGraph(ctk.CTkFrame):\n    \"\"\"\n    Widget to display list of integers as a graph. You can customize almost everyt",
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/Annual/CMS/hyy.png": {
+    "type": "image",
+    "caption": "a man with a blue circle around his head",
+    "keywords": [
+      "a",
+      "man",
+      "with",
+      "a",
+      "blue",
+      "circle",
+      "around",
+      "his",
+      "head"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/Annual/CMS/T20.png": {
+    "type": "image",
+    "caption": "a cricket player hitting the ball with his bat",
+    "keywords": [
+      "a",
+      "cricket",
+      "player",
+      "hitting",
+      "the",
+      "ball",
+      "with",
+      "his",
+      "bat"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/Annual/CMS/main.py": {
+    "type": "text",
+    "keywords": [
+      "type",
+      "ignore",
+      "from",
+      "cursor.execute(f\"truncate",
+      "where",
+      "anchor=tk.center",
+      "else",
+      "name",
+      "first",
+      "stringvar",
+      "second",
+      "cursor.execute(f\"update",
+      "int(11",
+      "cursor.execute(\"select",
+      "cursor.execute(f\"select",
+      "strike",
+      "name='{on_batter4.get",
+      "cursor.execute(f\"insert",
+      "into",
+      "mydb.commit",
+      "teams",
+      "elif",
+      "values",
+      "ball",
+      "z=ctklabel(self,width=1536,height=814,fg_color='black').place(x=0,y=0",
+      "self.lbg=ctkimage(dark_image=image.open(\"cms_logo.jpg\"),size=(1536,814",
+      "summary=ctklabel(z,image=self.lbg,fg_color='thistle2',width=1536,height=814",
+      "summary.place(x=0,y=0",
+      "scoreboard.updatescorecard(self,team1,team2,starting_frame",
+      "wicket",
+      "on_baller4.get()}',balls=balls+1",
+      "sum(runs",
+      "table",
+      "cursor.fetchall",
+      "import",
+      "ball'),values=team1_11",
+      "cursor.execute(f\"create",
+      "players",
+      "fields",
+      "starting_frame",
+      "starting_frame.place(x=0,y=0",
+      "innings",
+      "varchar(255",
+      "your",
+      "baller',font=('sans-serf',20)).place(x=450,y=80",
+      "ball'),values=team2_11",
+      "ball'),width=200,text='submit',command=lambda",
+      "batter",
+      "can't",
+      "len(cursor.fetchall())==0"
+    ],
+    "snippet": "from customtkinter import * #type: ignore\nimport customtkinter as ctk\nfrom tkinter import ttk #type: ignore\nimport tkinter as tk\nfrom ctk_graph import *\nfrom PIL import Image,ImageTk\nctk.set_appearanc",
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/finder/semantic_search_tool/test_data/cat.png": {
+    "type": "image",
+    "caption": "a cat laying on a rug next to a plant",
+    "keywords": [
+      "a",
+      "cat",
+      "laying",
+      "on",
+      "a",
+      "rug",
+      "next",
+      "to",
+      "a",
+      "plant"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/finder/semantic_search_tool/test_data/hello.txt": {
+    "type": "text",
+    "keywords": [
+      "this",
+      "file",
+      "containing",
+      "hello",
+      "world",
+      "text"
+    ],
+    "snippet": "This is a file containing hello world text.\n",
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/cms/L6.png": {
+    "type": "image",
+    "caption": "a cartoon character is playing with a child",
+    "keywords": [
+      "a",
+      "cartoon",
+      "character",
+      "is",
+      "playing",
+      "with",
+      "a",
+      "child"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/cms/L4.png": {
+    "type": "image",
+    "caption": "cricket world tour",
+    "keywords": [
+      "cricket",
+      "world",
+      "tour"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/cms/L5.png": {
+    "type": "image",
+    "caption": "cricket stadium with ball and bat - vector gr",
+    "keywords": [
+      "cricket",
+      "stadium",
+      "with",
+      "ball",
+      "and",
+      "bat",
+      "",
+      "vector",
+      "gr"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/cms/login.png": {
+    "type": "image",
+    "caption": "cricket stadium background vector illustration",
+    "keywords": [
+      "cricket",
+      "stadium",
+      "background",
+      "vector",
+      "illustration"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/cms/L1.png": {
+    "type": "image",
+    "caption": "cricket player 3d model - cricket player by 3d _ model",
+    "keywords": [
+      "cricket",
+      "player",
+      "3d",
+      "model",
+      "",
+      "cricket",
+      "player",
+      "by",
+      "3d",
+      "",
+      "model"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/cms/requirements.txt": {
+    "type": "text",
+    "keywords": [
+      "customtkinter==5.2.1",
+      "darkdetect==0.8.0",
+      "matplotlib==3.8.1",
+      "messagebox==0.1.0",
+      "mysql-connector-python==8.2.0",
+      "pillow==10.1.0"
+    ],
+    "snippet": "customtkinter==5.2.1\ndarkdetect==0.8.0\nmatplotlib==3.8.1\nmessagebox==0.1.0\nmysql-connector-python==8.2.0\nPillow==10.1.0\n",
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/cms/L2.png": {
+    "type": "image",
+    "caption": "the cricket team",
+    "keywords": [
+      "the",
+      "cricket",
+      "team"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/cms/L3.png": {
+    "type": "image",
+    "caption": "the indian cricket team",
+    "keywords": [
+      "the",
+      "indian",
+      "cricket",
+      "team"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/cms/R2.png": {
+    "type": "image",
+    "caption": "a red button on a keyboard that says update",
+    "keywords": [
+      "a",
+      "red",
+      "button",
+      "on",
+      "a",
+      "keyboard",
+      "that",
+      "says",
+      "update"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/cms/cricket.png": {
+    "type": "image",
+    "caption": "cricket player with ball and bat",
+    "keywords": [
+      "cricket",
+      "player",
+      "with",
+      "ball",
+      "and",
+      "bat"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/cms/R3.png": {
+    "type": "image",
+    "caption": "the logo for the new dele",
+    "keywords": [
+      "the",
+      "logo",
+      "for",
+      "the",
+      "new",
+      "dele"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/cms/R1.png": {
+    "type": "image",
+    "caption": "the logo of the company logout",
+    "keywords": [
+      "the",
+      "logo",
+      "of",
+      "the",
+      "company",
+      "logout"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/cms/otp.py": {
+    "type": "text",
+    "keywords": [
+      "import",
+      "account",
+      "password",
+      "management",
+      "random",
+      "smtplib",
+      "smtp_port=587",
+      "smtp_server=\"smtp.gmail.com",
+      "passwd=\"thhi",
+      "cwbg",
+      "vjrh",
+      "dlav",
+      "app's",
+      "email_from=\"cricketmanagementsystem@gmail.com",
+      "otp=random.randint(100000,999999",
+      "message=f\"cricket",
+      "system",
+      "welcomes",
+      "user_name}\\n\\nyour",
+      "simple_email_context=ssl.create_default_context",
+      "server=smtplib.smtp(smtp_server,smtp_port",
+      "server.starttls(context=simple_email_context",
+      "server.login(email_from,passwd",
+      "server.sendmail(email_from,email_to,message",
+      "server.quit",
+      "except",
+      "exception",
+      "print(e",
+      "otp='invalid",
+      "email",
+      "return",
+      "otp_login(email_to,user_name",
+      "email_to=\"tjeyeshbspsss10@outlook.com",
+      "email_to='tjeyesh@bspsss10.edu.in",
+      "login",
+      "your",
+      "cricket",
+      "system(cms",
+      "otp_reset(email_to,user_name",
+      "reset"
+    ],
+    "snippet": "def otp_login(email_to,user_name):\n    import random\n    import smtplib\n    import ssl\n    smtp_port=587\n    smtp_server=\"smtp.gmail.com\"\n    passwd=\"thhi cwbg vjrh dlav\" # app's account password\n    ",
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/cms/ctk_graph.py": {
+    "type": "text",
+    "keywords": [
+      "graph",
+      "height",
+      "0.05",
+      "0.95",
+      "width",
+      "import",
+      "title",
+      "data",
+      "data_len",
+      "datetime",
+      "list",
+      "axis",
+      "responsible",
+      "polygon",
+      "data_values",
+      "self.date",
+      "self.main_canvas",
+      "none",
+      "self.title",
+      "self.main_canvas.create_line(width",
+      "fill=self.graph_axis_color",
+      "width=self.graph_axis_width",
+      "arrow=self.graph_axis_arrow",
+      "max_value",
+      "coordinates.append((width",
+      "customtkinter",
+      "from",
+      "tkinter",
+      "class",
+      "ctkgraph(ctk.ctkframe",
+      "widget",
+      "display",
+      "integers",
+      "customize",
+      "almost",
+      "everything",
+      "except",
+      "corner",
+      "radius",
+      "canvas",
+      "that",
+      "draws",
+      "also",
+      "custom",
+      "don't",
+      "labeled",
+      "won't",
+      "rendered",
+      "vars",
+      "arrows"
+    ],
+    "snippet": "import customtkinter as ctk\nfrom datetime import datetime\nimport tkinter as tk\n\nclass CTkGraph(ctk.CTkFrame):\n    \"\"\"\n    Widget to display list of integers as a graph. You can customize almost everyt",
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/cms/hyy.png": {
+    "type": "image",
+    "caption": "a man with a blue circle around his head",
+    "keywords": [
+      "a",
+      "man",
+      "with",
+      "a",
+      "blue",
+      "circle",
+      "around",
+      "his",
+      "head"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/cms/T20.png": {
+    "type": "image",
+    "caption": "a cricket player hitting the ball with his bat",
+    "keywords": [
+      "a",
+      "cricket",
+      "player",
+      "hitting",
+      "the",
+      "ball",
+      "with",
+      "his",
+      "bat"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Work/Store/cms/main.py": {
+    "type": "text",
+    "keywords": [
+      "type",
+      "ignore",
+      "from",
+      "cursor.execute(f\"truncate",
+      "where",
+      "anchor=tk.center",
+      "else",
+      "name",
+      "first",
+      "stringvar",
+      "second",
+      "cursor.execute(f\"update",
+      "int(11",
+      "cursor.execute(\"select",
+      "cursor.execute(f\"select",
+      "strike",
+      "name='{on_batter4.get",
+      "cursor.execute(f\"insert",
+      "into",
+      "mydb.commit",
+      "teams",
+      "elif",
+      "values",
+      "ball",
+      "z=ctklabel(self,width=1536,height=814,fg_color='black').place(x=0,y=0",
+      "self.lbg=ctkimage(dark_image=image.open(\"cms_logo.jpg\"),size=(1536,814",
+      "summary=ctklabel(z,image=self.lbg,fg_color='thistle2',width=1536,height=814",
+      "summary.place(x=0,y=0",
+      "scoreboard.updatescorecard(self,team1,team2,starting_frame",
+      "wicket",
+      "on_baller4.get()}',balls=balls+1",
+      "sum(runs",
+      "table",
+      "cursor.fetchall",
+      "import",
+      "ball'),values=team1_11",
+      "cursor.execute(f\"create",
+      "players",
+      "fields",
+      "starting_frame",
+      "starting_frame.place(x=0,y=0",
+      "innings",
+      "varchar(255",
+      "your",
+      "baller',font=('sans-serf',20)).place(x=450,y=80",
+      "ball'),values=team2_11",
+      "ball'),width=200,text='submit',command=lambda",
+      "batter",
+      "can't",
+      "len(cursor.fetchall())==0"
+    ],
+    "snippet": "from customtkinter import * #type: ignore\nimport customtkinter as ctk\nfrom tkinter import ttk #type: ignore\nimport tkinter as tk\nfrom ctk_graph import *\nfrom PIL import Image,ImageTk\nctk.set_appearanc",
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Photo/E Signature/T Jeyesh SIGNATURE.jpg": {
+    "type": "image",
+    "caption": "person signed autographed on a white card",
+    "keywords": [
+      "person",
+      "signed",
+      "autographed",
+      "on",
+      "a",
+      "white",
+      "card"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Photo/E Signature/T Jeyesh SIGNATURE  30 kb.jpg": {
+    "type": "image",
+    "caption": "person signed autographed on a white card",
+    "keywords": [
+      "person",
+      "signed",
+      "autographed",
+      "on",
+      "a",
+      "white",
+      "card"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Photo/E Signature/T Jeyesh SIGNATURE 13 KB.jpg": {
+    "type": "image",
+    "caption": "person signed autographed on a white card",
+    "keywords": [
+      "person",
+      "signed",
+      "autographed",
+      "on",
+      "a",
+      "white",
+      "card"
+    ],
+    "timestamp": 1767505249.6358669
+  },
+  "/Users/tamadajeyesh/Personal Folder/Courses/Prakruti_Certificate1739616744743.png": {
+    "type": "image",
+    "caption": "a certificate for a certificate for a certificate",
+    "keywords": [
+      "a",
+      "certificate",
+      "for",
+      "a",
+      "certificate",
+      "for",
+      "a",
+      "certificate"
+    ],
+    "timestamp": 1767505330.798103
+  },
+  "/Users/tamadajeyesh/Personal Folder/Courses/AI Fundamentals/info.txt": {
+    "type": "text",
+    "keywords": [
+      "website",
+      "https://tataneuskills.instructure.com/login/canvas",
+      "username",
+      "tjeyeshse@gmail.com",
+      "password",
+      "tjse_2006"
+    ],
+    "snippet": "website == https://tataneuskills.instructure.com/login/canvas\nusername == tjeyeshse@gmail.com\npassword == TJse_2006",
+    "timestamp": 1767505330.799017
+  },
+  "/Users/tamadajeyesh/Personal Folder/Courses/AI Fundamentals/completion.png": {
+    "type": "image",
+    "caption": "the settings page in the new dashboard",
+    "keywords": [
+      "the",
+      "settings",
+      "page",
+      "in",
+      "the",
+      "new",
+      "dashboard"
+    ],
+    "timestamp": 1767505331.116655
+  },
+  "/Users/tamadajeyesh/Personal Folder/Courses/SQL_SWAYAM/info.txt": {
+    "type": "text",
+    "keywords": [
+      "website",
+      "https://aispry.com/login",
+      "username",
+      "tjeyeshse@gmail.com",
+      "password",
+      "tjse_2006"
+    ],
+    "snippet": "website == https://aispry.com/login\nusername == tjeyeshse@gmail.com\npassword == TJse_2006",
+    "timestamp": 1767505331.11712
+  },
+  "/Users/tamadajeyesh/Personal Folder/Courses/Effective Speaking and Listening Skills/info.txt": {
+    "type": "text",
+    "keywords": [
+      "website",
+      "https://web.opportunity.wfglobal.org/en",
+      "account",
+      "sign",
+      "using",
+      "google",
+      "accouunt",
+      "tjeyeshse@gmail.com"
+    ],
+    "snippet": "website == https://web.opportunity.wfglobal.org/en\naccount sign using { google accouunt tjeyeshse@gmail.com }",
+    "timestamp": 1767505331.1174421
+  },
+  "/Users/tamadajeyesh/Personal Folder/Courses/Effective Speaking and Listening Skills/performance.png": {
+    "type": "image",
+    "caption": "the dashboard showing the dashboard of the dashboard",
+    "keywords": [
+      "the",
+      "dashboard",
+      "showing",
+      "the",
+      "dashboard",
+      "of",
+      "the",
+      "dashboard"
+    ],
+    "timestamp": 1767505331.4318569
+  },
+  "/Users/tamadajeyesh/Personal Folder/Courses/QuCAM 2024/1000015635.jpeg": {
+    "type": "image",
+    "caption": "the transaction screen with the transaction button highlighted",
+    "keywords": [
+      "the",
+      "transaction",
+      "screen",
+      "with",
+      "the",
+      "transaction",
+      "button",
+      "highlighted"
+    ],
+    "timestamp": 1767505331.704364
+  },
+  "/Users/tamadajeyesh/Personal Folder/Courses/QuCAM 2024/1000015252.jpeg": {
+    "type": "image",
+    "caption": "the flyer for the workshop on quantum computing",
+    "keywords": [
+      "the",
+      "flyer",
+      "for",
+      "the",
+      "workshop",
+      "on",
+      "quantum",
+      "computing"
+    ],
+    "timestamp": 1767505331.979223
+  },
+  "/Users/tamadajeyesh/Personal Folder/Courses/QuCAM 2024/QuCAM 2024.png": {
+    "type": "image",
+    "caption": "quantum quantum quantum quantum quantum quantum quantum quantum quantum quantum quantum quantum quantum quantum quantum quantum quantum quantum quantum quantum",
+    "keywords": [
+      "quantum",
+      "quantum",
+      "quantum",
+      "quantum",
+      "quantum",
+      "quantum",
+      "quantum",
+      "quantum",
+      "quantum",
+      "quantum",
+      "quantum",
+      "quantum",
+      "quantum",
+      "quantum",
+      "quantum",
+      "quantum",
+      "quantum",
+      "quantum",
+      "quantum",
+      "quantum"
+    ],
+    "timestamp": 1767505332.379915
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/P13.jpg": {
+    "type": "image",
+    "caption": "lord gan gan gan gan gan gan gan gan gan gan gan gan gan gan gan gan gan gan gan",
+    "keywords": [
+      "lord",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan"
+    ],
+    "timestamp": 1767505730.285882
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/K11.jpg": {
+    "type": "image",
+    "caption": "a sanskrit poem with a peacock and a border",
+    "keywords": [
+      "a",
+      "sanskrit",
+      "poem",
+      "with",
+      "a",
+      "peacock",
+      "and",
+      "a",
+      "border"
+    ],
+    "timestamp": 1767505730.629196
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/K10.jpg": {
+    "type": "image",
+    "caption": "a poem in marathi with a picture of a peacock",
+    "keywords": [
+      "a",
+      "poem",
+      "in",
+      "marathi",
+      "with",
+      "a",
+      "picture",
+      "of",
+      "a",
+      "peacock"
+    ],
+    "timestamp": 1767505730.988905
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/Sholka 28.jpg": {
+    "type": "image",
+    "caption": "radha mantra in hindi",
+    "keywords": [
+      "radha",
+      "mantra",
+      "in",
+      "hindi"
+    ],
+    "timestamp": 1767505731.2798321
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/Sholka 1.jpg": {
+    "type": "image",
+    "caption": "lord hanriya in hindi",
+    "keywords": [
+      "lord",
+      "hanriya",
+      "in",
+      "hindi"
+    ],
+    "timestamp": 1767505731.580193
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/20201030_192404.jpg": {
+    "type": "image",
+    "caption": "a table with a bunch of flowers and candles",
+    "keywords": [
+      "a",
+      "table",
+      "with",
+      "a",
+      "bunch",
+      "of",
+      "flowers",
+      "and",
+      "candles"
+    ],
+    "timestamp": 1767505732.042762
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/Sholka 2.jpg": {
+    "type": "image",
+    "caption": "lord hanriya mantra in hindi",
+    "keywords": [
+      "lord",
+      "hanriya",
+      "mantra",
+      "in",
+      "hindi"
+    ],
+    "timestamp": 1767505732.364831
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/K1.jpg": {
+    "type": "image",
+    "caption": "a sanskrit poem with a bird on it",
+    "keywords": [
+      "a",
+      "sanskrit",
+      "poem",
+      "with",
+      "a",
+      "bird",
+      "on",
+      "it"
+    ],
+    "timestamp": 1767505732.709715
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/K3.jpg": {
+    "type": "image",
+    "caption": "a sanskrit poem with a picture of a peacock",
+    "keywords": [
+      "a",
+      "sanskrit",
+      "poem",
+      "with",
+      "a",
+      "picture",
+      "of",
+      "a",
+      "peacock"
+    ],
+    "timestamp": 1767505733.048379
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/K2.jpg": {
+    "type": "image",
+    "caption": "a poem in marathi with a peacock and flowers",
+    "keywords": [
+      "a",
+      "poem",
+      "in",
+      "marathi",
+      "with",
+      "a",
+      "peacock",
+      "and",
+      "flowers"
+    ],
+    "timestamp": 1767505733.385906
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/K6.jpg": {
+    "type": "image",
+    "caption": "a sanskrit poem with a picture of a peacock",
+    "keywords": [
+      "a",
+      "sanskrit",
+      "poem",
+      "with",
+      "a",
+      "picture",
+      "of",
+      "a",
+      "peacock"
+    ],
+    "timestamp": 1767505733.7387478
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/K7.jpg": {
+    "type": "image",
+    "caption": "a sanskrit poem with a bird on it",
+    "keywords": [
+      "a",
+      "sanskrit",
+      "poem",
+      "with",
+      "a",
+      "bird",
+      "on",
+      "it"
+    ],
+    "timestamp": 1767505734.0892138
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/K5.jpg": {
+    "type": "image",
+    "caption": "a sanskrit poem with a bird on it",
+    "keywords": [
+      "a",
+      "sanskrit",
+      "poem",
+      "with",
+      "a",
+      "bird",
+      "on",
+      "it"
+    ],
+    "timestamp": 1767505734.436647
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/K4.jpg": {
+    "type": "image",
+    "caption": "a poem in marathi with a peacock and flowers",
+    "keywords": [
+      "a",
+      "poem",
+      "in",
+      "marathi",
+      "with",
+      "a",
+      "peacock",
+      "and",
+      "flowers"
+    ],
+    "timestamp": 1767505734.800946
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/K9.jpg": {
+    "type": "image",
+    "caption": "marathi poem in hindi",
+    "keywords": [
+      "marathi",
+      "poem",
+      "in",
+      "hindi"
+    ],
+    "timestamp": 1767505735.080101
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/K8.jpg": {
+    "type": "image",
+    "caption": "a poem in marathi with a picture of a peacock",
+    "keywords": [
+      "a",
+      "poem",
+      "in",
+      "marathi",
+      "with",
+      "a",
+      "picture",
+      "of",
+      "a",
+      "peacock"
+    ],
+    "timestamp": 1767505735.426099
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/P4.jpg": {
+    "type": "image",
+    "caption": "lord krishna and goddess in hindi",
+    "keywords": [
+      "lord",
+      "krishna",
+      "and",
+      "goddess",
+      "in",
+      "hindi"
+    ],
+    "timestamp": 1767505735.8225799
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/Sholka 23.jpg": {
+    "type": "image",
+    "caption": "lord gan gan gan gan gan gan gan gan gan gan gan gan gan gan gan gan gan gan gan",
+    "keywords": [
+      "lord",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan"
+    ],
+    "timestamp": 1767505736.295126
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/108 names 1.jpg": {
+    "type": "image",
+    "caption": "hindi alphabets",
+    "keywords": [
+      "hindi",
+      "alphabets"
+    ],
+    "timestamp": 1767505736.5586061
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/Sholka 22.jpg": {
+    "type": "image",
+    "caption": "lord hanriya hanriya hanriya hanriya hanriya hanriya han",
+    "keywords": [
+      "lord",
+      "hanriya",
+      "hanriya",
+      "hanriya",
+      "hanriya",
+      "hanriya",
+      "hanriya",
+      "han"
+    ],
+    "timestamp": 1767505737.030713
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/108 names 3.jpg": {
+    "type": "image",
+    "caption": "hindi alphabets",
+    "keywords": [
+      "hindi",
+      "alphabets"
+    ],
+    "timestamp": 1767505737.295664
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/108 names 2.jpg": {
+    "type": "image",
+    "caption": "sanskrit alphabets",
+    "keywords": [
+      "sanskrit",
+      "alphabets"
+    ],
+    "timestamp": 1767505737.524101
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/Sholka 25.jpg": {
+    "type": "image",
+    "caption": "lord hanriya in hindi",
+    "keywords": [
+      "lord",
+      "hanriya",
+      "in",
+      "hindi"
+    ],
+    "timestamp": 1767505737.8629792
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/Sholka 24.jpg": {
+    "type": "image",
+    "caption": "lord gan gan gan gan gan gan gan gan gan gan gan gan gan gan gan gan gan gan gan",
+    "keywords": [
+      "lord",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan",
+      "gan"
+    ],
+    "timestamp": 1767505738.3539069
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/Sholka 26.jpg": {
+    "type": "image",
+    "caption": "lord hanriya mantra in hindi",
+    "keywords": [
+      "lord",
+      "hanriya",
+      "mantra",
+      "in",
+      "hindi"
+    ],
+    "timestamp": 1767505738.720458
+  },
+  "/Users/tamadajeyesh/PenDrive/New folder/TULSI PUJA/TULSI PUJA BOOK/BOOK 1 PRINT/Sholka 27.jpg": {
+    "type": "image",
+    "caption": "radha mantra in hindi",
+    "keywords": [
+      "radha",
+      "mantra",
+      "in",
+      "hindi"
+    ],
+    "timestamp": 1767505739.014517
+  }
+}

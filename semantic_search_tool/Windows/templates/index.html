@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Search</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a;
+            color: #f1f5f9;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+        }
+
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen flex flex-col items-center p-6">
+
+    <!-- Header / Search -->
+    <div class="w-full max-w-5xl sticky top-4 z-50">
+        <div
+            class="bg-slate-800/80 backdrop-blur-md rounded-2xl shadow-xl border border-slate-700 p-4 flex gap-4 items-center">
+            <h1
+                class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 whitespace-nowrap hidden md:block">
+                Finder
+            </h1>
+            <div class="relative w-full">
+                <input type="text" id="searchInput"
+                    class="w-full bg-slate-900 border border-slate-600 rounded-xl px-4 py-3 text-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all placeholder-slate-500 pl-12"
+                    placeholder="Search files..." onkeyup="debouncedSearch()" autofocus>
+                <div class="absolute left-4 top-3.5 text-slate-500 pointer-events-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </div>
+            </div>
+            <button onclick="openModal()"
+                class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-3 rounded-xl font-medium transition-colors flex items-center gap-2 whitespace-nowrap">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                </svg>
+                Add Path
+            </button>
+        </div>
+    </div>
+
+    <!-- Results Grid -->
+    <div id="resultsGrid"
+        class="w-full max-w-6xl mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 pb-20">
+        <!-- JS will populate this -->
+    </div>
+
+    <!-- Empty State -->
+    <div id="emptyState" class="hidden mt-20 text-center opacity-60">
+        <p class="text-xl">No results found.</p>
+    </div>
+
+    <!-- Add Folder Modal -->
+    <div id="addModal" class="fixed inset-0 bg-black/50 backdrop-blur-sm hidden items-center justify-center z-[60]">
+        <div class="bg-slate-800 border border-slate-700 rounded-2xl p-6 w-full max-w-md shadow-2xl transform transition-all scale-95"
+            id="modalContent">
+            <h2 class="text-xl font-bold mb-4 text-white">Add Folder to Index</h2>
+            <p class="text-slate-400 mb-4 text-sm">Enter the absolute path of the directory you want to analyze.</p>
+            <input type="text" id="folderPathInput"
+                class="w-full bg-slate-900 border border-slate-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 mb-6"
+                placeholder="/Users/username/Photos...">
+            <div class="flex justify-end gap-3">
+                <button onclick="closeModal()"
+                    class="px-4 py-2 rounded-lg text-slate-300 hover:bg-slate-700 transition-colors">Cancel</button>
+                <button onclick="addFolder()"
+                    class="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-medium transition-colors">Start
+                    Indexing</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let timeout = null;
+
+        // Load initial data
+        search("");
+
+        function debouncedSearch() {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => {
+                const query = document.getElementById('searchInput').value;
+                search(query);
+            }, 300);
+        }
+
+        async function search(query) {
+            try {
+                const res = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
+                const results = await res.json();
+                renderResults(results);
+            } catch (e) {
+                console.error("Search failed", e);
+            }
+        }
+
+        function renderResults(results) {
+            const grid = document.getElementById('resultsGrid');
+            const empty = document.getElementById('emptyState');
+            grid.innerHTML = "";
+
+            if (results.length === 0) {
+                empty.classList.remove('hidden');
+            } else {
+                empty.classList.add('hidden');
+                results.forEach(item => {
+                    const card = createCard(item);
+                    grid.appendChild(card);
+                });
+            }
+        }
+
+        function createCard(item) {
+            const isImage = item.data.type === 'image';
+            const path = item.path;
+            const caption = item.data.caption || "";
+            const snippet = item.data.snippet || "";
+            const keywords = (item.data.keywords || []).slice(0, 5).join(", ");
+            const score = item.score ? item.score.toFixed(1) : "";
+
+            const div = document.createElement('div');
+            div.className = "bg-slate-800 rounded-xl overflow-hidden shadow-lg border border-slate-700 transition-all duration-300 card-hover flex flex-col";
+
+            // Image Preview or Text Icon
+            if (isImage) {
+                // Use the /api/file endpoint
+                const imgPath = `/api/file?path=${encodeURIComponent(path)}`;
+                div.innerHTML = `
+                    <div class="h-48 overflow-hidden bg-slate-900 relative group">
+                        <img src="${imgPath}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Result">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-2">
+                            <p class="text-xs text-white truncate">${path}</p>
+                        </div>
+                    </div>
+                `;
+            } else {
+                div.innerHTML = `
+                    <div class="h-48 bg-slate-900 flex items-center justify-center relative group p-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-slate-600 group-hover:text-blue-400 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                        <div class="absolute inset-0 p-4 text-xs text-slate-400 overflow-hidden opacity-0 group-hover:opacity-100 bg-slate-900/90 transition-opacity">
+                             ${snippet}
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Content
+            div.innerHTML += `
+                <div class="p-4 flex-1 flex flex-col">
+                    <div class="flex justify-between items-start mb-2">
+                        <span class="text-xs font-semibold px-2 py-1 rounded bg-slate-700 text-slate-300 uppercase tracking-wider">${item.data.type}</span>
+                        ${score ? `<span class="text-xs text-blue-400 font-mono">Score: ${score}</span>` : ''}
+                    </div>
+                    <p class="text-sm text-slate-200 font-medium mb-1 line-clamp-2">${caption || snippet || "No description"}</p>
+                    <div class="mt-auto">
+                        <p class="text-xs text-slate-500 line-clamp-1">${keywords}</p>
+                    </div>
+                </div>
+            `;
+
+            return div;
+        }
+
+        // Modal Logic
+        function openModal() {
+            document.getElementById('addModal').classList.remove('hidden');
+            document.getElementById('addModal').classList.add('flex');
+            document.getElementById('folderPathInput').focus();
+        }
+
+        function closeModal() {
+            document.getElementById('addModal').classList.add('hidden');
+            document.getElementById('addModal').classList.remove('flex');
+        }
+
+        async function addFolder() {
+            const pathInput = document.getElementById('folderPathInput');
+            const path = pathInput.value.trim();
+
+            if (!path) return;
+
+            const btn = document.querySelector('#addModal button:last-child');
+            const originalText = btn.innerText;
+            btn.innerText = "Starting...";
+            btn.disabled = true;
+
+            try {
+                const res = await fetch('/api/index/add', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ path: path })
+                });
+
+                if (res.ok) {
+                    alert("Analysis started! Files will appear as they are indexed.");
+                    closeModal();
+                    pathInput.value = "";
+                } else {
+                    const err = await res.json();
+                    alert("Error: " + err.detail);
+                }
+            } catch (e) {
+                alert("Request failed: " + e);
+            } finally {
+                btn.innerText = originalText;
+                btn.disabled = false;
+            }
+        }
+    </script>
+</body>
+
+</html>

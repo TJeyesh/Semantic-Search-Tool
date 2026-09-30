@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions & dynamic libraries
+*.dylib
+*.dll
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+*/venv/
+*/.venv/
+
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large model caches & weights
+*.pt
+*.bin
+*.safetensors
+*.onnx
+.cache/
+huggingface/
+
+# Logs and runtime files
+*.log
+/tmp/com.tamadajeyesh.finder.*

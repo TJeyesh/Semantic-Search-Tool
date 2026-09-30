@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.tamadajeyesh.finder</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/tamadajeyesh/Personal Folder/Work/finder/semantic_search_tool/Mac/run_finder.command</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/tmp/com.tamadajeyesh.finder.out</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/com.tamadajeyesh.finder.err</string>
+</dict>
+</plist>
